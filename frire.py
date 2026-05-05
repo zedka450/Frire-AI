@@ -4,8 +4,8 @@ import math
 import json
 from supabase import create_client
 
-SUPABASE_URL = "https://givazljlcyrcvmkstvgz.supabase.co"
-SUPABASE_KEY = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImdpdmF6bGpsY3lyY3Zta3N0dmd6Iiwicm9sZSI6ImFub24iLCJpYXQiOjE3Nzc5Njk4NjEsImV4cCI6MjA5MzU0NTg2MX0.2FK393jvuTUgACc67D_CXF6eRBfSPNgsMwPxkCWHAdk"
+SUPABASE_URL = "YOUR_URL"
+SUPABASE_KEY = "YOUR_KEY"
 
 supabase = create_client(SUPABASE_URL, SUPABASE_KEY)
 
