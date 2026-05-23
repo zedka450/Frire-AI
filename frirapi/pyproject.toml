@@ -1,0 +1,38 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "frirapi"
+version = "1.0.0"
+description = "Trilingual AI API module (English, French, Spanish) synchronized with a Supabase cloud brain and equipped with web fallback search capabilities."
+readme = "README.md"
+requires-python = ">=3.10"
+license = { text = "GPL-3.0-or-later" }
+keywords = ["ai", "api", "supabase", "trilingual", "pancakapi", "frire-ai"]
+authors = [
+    { name = "ZedKa450", email = "zedka.le.vrai.pro@gmail.com" }
+]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "License :: OSI Approved :: GNU General Public License v3 (GPLv3)",
+    "Operating System :: OS Independent",
+    "Topic :: Scientific/Engineering :: Artificial Intelligence",
+]
+
+dependencies = [
+    "supabase>=2.4.0",
+    "duckduckgo_search>=6.1.7",
+    "deep-translator>=1.11.4",
+]
+
+[project.urls]
+Homepage = "https://github.com/zedka450/Frire-AI"
+Bug-Tracker = "https://github.com/zedka450/Frire-AI/issues"
+Repository = "https://github.com/zedka450/Frire-AI.git"
+
+[tool.hatch.build.targets.wheel]
+packages = ["frirapi"]
