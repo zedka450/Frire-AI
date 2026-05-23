@@ -30,7 +30,7 @@ dependencies = [
 ]
 
 [project.urls]
-Homepage = "https://github.com/zedka450/Frire-AI"
+Homepage = "https://github.com/zedka450/Frire-AI/tree/main/frirapi"
 Bug-Tracker = "https://github.com/zedka450/Frire-AI/issues"
 Repository = "https://github.com/zedka450/Frire-AI.git"
 
