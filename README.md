@@ -17,4 +17,4 @@ python frire.py `
 
 ### Option 2 : Mode normal (recommandé)
 Si vous voulez juste uttiliser Frire, c'est l'option la plus simple. Téléchargez juste le lien ci-dessous.
-[https://github.com/zedka450/Frire-AI/releases/0.1]
+[https://github.com/zedka450/Frire-AI/releases/1.5]
